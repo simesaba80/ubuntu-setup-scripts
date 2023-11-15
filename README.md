@@ -4,6 +4,10 @@
 ```sh
 chmod -R +x .
 ```
+- ngrokの使用にはAuthTokenの設定が必要です。[ここ](https://ngrok.com/)でアカウント登録後トークンを発行し、以下のコマンドを実行してください。
+```sh
+ngrok config add-authtoken <token>
+```
 
 # インストールされるもの
 - C/C++ (build-essensial)
@@ -11,6 +15,7 @@ chmod -R +x .
 - Python (pyenv,poetry)
 - Golang
 - Rust (cargo)
+- ngrok
 - TexLive [VSCode参考](https://qiita.com/uoyuki/items/c0b3feeb80f9a2699759)
 - CTFによく使用するツール群
 - その他よく使用するコマンド群

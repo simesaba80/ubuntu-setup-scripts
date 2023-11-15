@@ -9,4 +9,6 @@ sudo apt -y upgrade
 ./develops/golang.sh
 ./develops/cargo.sh
 
+./tools/ngrok.sh
+./tools/latex.sh
 ./tools/ctf.sh
