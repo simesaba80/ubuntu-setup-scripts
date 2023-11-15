@@ -8,3 +8,5 @@ sudo apt -y upgrade
 ./develops/poetry.sh
 ./develops/golang.sh
 ./develops/cargo.sh
+
+./tools/ctf.sh

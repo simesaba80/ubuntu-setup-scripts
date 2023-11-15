@@ -11,4 +11,5 @@ chmod -R +x .
 - Python (pyenv,poetry)
 - Golang
 - Rust (cargo)
+- CTFによく使用するツール群
 - その他よく使用するコマンド群
