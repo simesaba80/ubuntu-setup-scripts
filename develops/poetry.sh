@@ -11,6 +11,7 @@ if [ -z "$PYENV_ROOT" ]; then
 fi
 
 pyenv install 3.11.6
+pyenv global 3.11.6
 
 pyenv --version
 python3 --version
