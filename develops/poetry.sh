@@ -1,7 +1,7 @@
 sudo apt -y install gcc libssl-dev libffi-dev libncurses5-dev zlib1g zlib1g-dev libreadline-dev libbz2-dev libsqlite3-dev
 curl https://pyenv.run | bash
 
-if [ -z "pyenv" ]; then
+if [ -z "$PYENV_ROOT" ]; then
   echo '' >> ~/.bashrc
   echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
   echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
