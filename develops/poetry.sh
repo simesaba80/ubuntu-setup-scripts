@@ -6,12 +6,15 @@ if [ -z "$PYENV_ROOT" ]; then
   echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
   echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
   echo 'eval "$(pyenv init --path)"' >> ~/.bashrc
-  echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
   source ~/.bashrc
 fi
 
 pyenv install 3.11.6
 pyenv global 3.11.6
 
+curl -sSL https://install.python-poetry.org | python3 -
+source ~/.bashrc
+
 pyenv --version
 python3 --version
+poetry --version
