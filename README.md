@@ -8,7 +8,7 @@ git clone https://github.com/claustra01/ubuntu-setup-scripts
 
 # インストールされるもの
 - C/C++ (build-essential)
-- JavaScript/TypeScript (node.js)
+- JavaScript/TypeScript (node.js,pnpm)
 - Python (pyenv,poetry)
 - Java (jdk,jre)
 - Golang
