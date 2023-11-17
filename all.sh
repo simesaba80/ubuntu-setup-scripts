@@ -11,6 +11,7 @@ sudo apt -y upgrade
 ./develops/cargo.sh
 
 ./develops/gradle.sh
+./develops/postgres.sh
 
 ./tools/ngrok.sh
 ./tools/texlive.sh

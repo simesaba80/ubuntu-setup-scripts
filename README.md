@@ -14,6 +14,7 @@ git clone https://github.com/claustra01/ubuntu-setup-scripts
 - Golang
 - Rust (cargo)
 - Gradle
+- PostgreSQL
 - ngrok
 - LaTeX (texlive) [VSCode参考](https://qiita.com/uoyuki/items/c0b3feeb80f9a2699759)
 - CTFによく使用するツール群
