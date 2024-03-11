@@ -13,8 +13,6 @@ sudo apt -y upgrade
 ./develops/gradle.sh
 ./develops/postgres.sh
 
-./tools/ngrok.sh
-./tools/texlive.sh
 ./tools/ctf.sh
 
 sudo apt -y autoremove
