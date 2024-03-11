@@ -15,4 +15,6 @@ sudo apt -y upgrade
 
 ./tools/ctf.sh
 
+./develops/fishshell.sh
+
 sudo apt -y autoremove
