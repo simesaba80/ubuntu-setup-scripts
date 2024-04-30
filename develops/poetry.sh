@@ -1,4 +1,4 @@
-sudo apt -y install gcc libssl-dev libffi-dev libncurses5-dev zlib1g zlib1g-dev libreadline-dev libbz2-dev libsqlite3-dev
+sudo apt -y install gcc libssl-dev libffi-dev libncurses5-dev zlib1g zlib1g-dev libreadline-dev libbz2-dev libsqlite3-dev liblzma-dev python-tk python3-tk tk-dev
 curl https://pyenv.run | bash
 
 if [ -z "$PYENV_ROOT" ]; then
